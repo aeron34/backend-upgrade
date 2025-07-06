@@ -13,4 +13,4 @@ router.get('/', (req, res) => {
   res.status(300).send('default route.')
 })
 
-router.listen(3000);
+router.listen(process.env.PORT);
